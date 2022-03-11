@@ -1,8 +1,7 @@
 <template>
-  <div class='flex flex-no-wrap bg-gray-200'>
-    <!-- Sidebar starts -->
-    <!-- Remove class [ hidden ] and replace [ sm:flex ] with [ flex ] -->
-    <div class='w-64 absolute sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex'>
+  <div>
+    <div
+      class='w-64 absolute sm:relative bg-indigo-900 shadow md:h-full flex-col justify-between hidden sm:flex min-h-screen'>
       <div class='px-8'>
         <div class='h-16 w-full flex items-center'>
           <svg xmlns='http://www.w3.org/2000/svg' width='144' height='30' viewBox='0 0 144 30'>
@@ -166,7 +165,7 @@
       </div>
     </div>
     <div
-      class='w-64 z-40 absolute bg-gray-800 shadow md:h-full flex-col justify-between sm:hidden transition duration-150 ease-in-out'
+      class='w-64 z-40 absolute bg-indigo-900 shadow md:h-full flex-col justify-between sm:hidden transition duration-150 ease-in-out'
       id='mobile-nav'>
       <div id='openSideBar'
            class='h-10 w-10 bg-gray-800 absolute right-0 mt-16 -mr-10 flex items-center shadow rounded-tr rounded-br justify-center cursor-pointer'
@@ -359,20 +358,30 @@
         </ul>
       </div>
     </div>
-    <!-- Sidebar ends -->
-    <!-- Remove class [ h-64 ] when adding a card block -->
-    <div class='container mx-auto py-10 h-64 md:w-4/5 w-11/12 px-6'>
-      <!-- Remove class [ border-dashed border-2 border-gray-300 ] to remove dotted border -->
-      <div class='w-full h-full rounded border-dashed border-2 border-gray-300'>
-        <!-- Place your content here -->
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Sidebar'
+  name: 'Sidebar',
+  data() {
+    return {
+      moved: true
+    }
+  },
+  methods: {
+    sidebarHandler() {
+      var sideBar = document.getElementById('mobile-nav')
+      sideBar.style.transform = 'translateX(-260px)'
+      if (this.$data.moved) {
+        sideBar.style.transform = 'translateX(0px)'
+        this.$data.moved = false
+      } else {
+        sideBar.style.transform = 'translateX(-260px)'
+        this.$data.moved = true
+      }
+    }
+  }
 }
 </script>
 
