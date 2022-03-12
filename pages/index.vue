@@ -2,7 +2,7 @@
   <div class='flex flex-col flex-grow'>
     <div class='px-3 py-5 bg-blue-100'>Dashboard</div>
     <div class='flex flex-wrap p-3 flex-grow items-center'>
-      <div class='md:w-2/3 w-full text-center bg-red-200 h-full flex flex-col' ref='container'>
+      <div class='md:w-2/3 w-full text-center bg-red-200 h-full flex flex-col relative' ref='container'>
         <div class='grid grid-cols-3 gap-4'>
           <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
             <div class='text-white'>
@@ -53,7 +53,7 @@
             </div>
           </div>
         </div>
-        <div class='flex justify-start mt-10'>
+        <div class='flex justify-start mt-5 z-10'>
           <div class='flex items-center'>
             <div class='dropdown relative h-full'>
               <button
@@ -194,7 +194,7 @@
             Commission
           </button>
         </div>
-        <div class='flex-grow m-4'>
+        <div class='flex-grow m-5 z-0'>
           <trading-chart :width=chartWidth :chart-height='chartHeight'></trading-chart>
         </div>
       </div>
