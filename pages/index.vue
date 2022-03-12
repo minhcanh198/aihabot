@@ -1,63 +1,64 @@
 <template>
-  <div class='flex flex-col flex-grow'>
-    <div class='px-3 py-5 bg-blue-100'>Dashboard</div>
-    <div class='flex flex-wrap p-3 flex-grow items-center'>
-      <div class='md:w-2/3 w-full text-center bg-red-200 h-full flex flex-col relative' ref='container'>
-        <div class='grid grid-cols-3 gap-4'>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
+  <div class='flex flex-col flex-grow bg-blue-900'>
+    <div class='px-3 py-2 text-white'>Dashboard</div>
+    <div class='flex flex-wrap flex-grow items-center py-2'>
+      <div class='h-full w-full md:w-2/3'>
+        <div class='text-center h-full flex flex-col relative mx-3' ref='container'>
+          <div class='grid grid-cols-3 gap-4'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
             </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
+            </div>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
+            </div>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
+            </div>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
+            </div>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+              <div class='text-white'>
+                Balance
+              </div>
+              <div class='text-yellow-500 font-bold'>
+                100$
+              </div>
             </div>
           </div>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
-            </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
-            </div>
-          </div>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
-            </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
-            </div>
-          </div>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
-            </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
-            </div>
-          </div>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
-            </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
-            </div>
-          </div>
-          <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
-            <div class='text-white'>
-              Balance
-            </div>
-            <div class='text-yellow-500 font-bold'>
-              100$
-            </div>
-          </div>
-        </div>
-        <div class='flex justify-start mt-5 z-10'>
-          <div class='flex items-center'>
-            <div class='dropdown relative h-full'>
-              <button
-                class='
+          <div class='flex justify-start mt-5 z-10'>
+            <div class='flex items-center'>
+              <div class='dropdown relative h-full'>
+                <button
+                  class='
                 rounded-lg
                 h-full
           dropdown-toggle
@@ -81,30 +82,30 @@
           items-center
           whitespace-nowrap
         '
-                type='button'
-                id='dropdownMenuButton1'
-                data-bs-toggle='dropdown'
-                aria-expanded='false'
-              >
-                BTCUSDT
-                <svg
-                  aria-hidden='true'
-                  focusable='false'
-                  data-prefix='fas'
-                  data-icon='caret-down'
-                  class='w-2 ml-2'
-                  role='img'
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 320 512'
+                  type='button'
+                  id='dropdownMenuButton1'
+                  data-bs-toggle='dropdown'
+                  aria-expanded='false'
                 >
-                  <path
-                    fill='currentColor'
-                    d='M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z'
-                  ></path>
-                </svg>
-              </button>
-              <ul
-                class='
+                  BTCUSDT
+                  <svg
+                    aria-hidden='true'
+                    focusable='false'
+                    data-prefix='fas'
+                    data-icon='caret-down'
+                    class='w-2 ml-2'
+                    role='img'
+                    xmlns='http://www.w3.org/2000/svg'
+                    viewBox='0 0 320 512'
+                  >
+                    <path
+                      fill='currentColor'
+                      d='M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z'
+                    ></path>
+                  </svg>
+                </button>
+                <ul
+                  class='
                 w-full
           dropdown-menu
           min-w-max
@@ -125,11 +126,11 @@
           bg-clip-padding
           border-none
         '
-                aria-labelledby='dropdownMenuButton1'
-              >
-                <li>
-                  <a
-                    class='
+                  aria-labelledby='dropdownMenuButton1'
+                >
+                  <li>
+                    <a
+                      class='
               dropdown-item
               text-sm
               py-2
@@ -142,13 +143,13 @@
               text-gray-700
               hover:bg-gray-100
             '
-                    href='#'
-                  >ETHXXX</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class='
+                      href='#'
+                    >ETHXXX</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class='
               dropdown-item
               text-sm
               py-2
@@ -161,13 +162,13 @@
               text-gray-700
               hover:bg-gray-100
             '
-                    href='#'
-                  >ETHXXX</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class='
+                      href='#'
+                    >ETHXXX</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class='
               dropdown-item
               text-sm
               py-2
@@ -180,35 +181,42 @@
               text-gray-700
               hover:bg-gray-100
             '
-                    href='#'
-                  >ETHXXX</a
-                  >
-                </li>
-              </ul>
+                      href='#'
+                    >ETHXXX</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
+            <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700'
+                    type='button'>
+              Active Bot
+            </button>
+            <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700'
+                    type='button'>
+              Commission
+            </button>
           </div>
-          <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700' type='button'>
-            Active Bot
-          </button>
-          <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700' type='button'>
-            Commission
-          </button>
-        </div>
-        <div class='flex-grow m-5 z-0'>
-          <trading-chart :width=chartWidth :chart-height='chartHeight'></trading-chart>
+          <div class='flex-grow m-5 z-0'>
+            <trading-chart :width=chartWidth :chart-height='chartHeight'></trading-chart>
+          </div>
         </div>
       </div>
-      <div class='md:w-1/3 w-full  text-center bg-indigo-500 h-full'><strong>right</strong></div>
+      <div class='md:w-1/3 w-full md:mt-0 mt-3 h-full'>
+        <setting-bot></setting-bot>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import TradingChart from '~/components/TradingChart'
+import SettingBot from '~/components/SettingBot'
 
 export default {
   components: {
-    TradingChart: TradingChart
+    TradingChart: TradingChart,
+    SettingBot: SettingBot
   },
   data() {
     return {
@@ -219,20 +227,17 @@ export default {
   created() {
   },
   mounted() {
-    // window.addEventListener('resize', this.onResize)
-    this.chartWidth = this.$refs.container.children[2].clientWidth
-    this.chartHeight = this.$refs.container.children[2].clientHeight
-    // console.log(this.$refs.container.children[2])
+    window.addEventListener('resize', this.onResize)
+    if (this.$refs.container && this.$refs.container.children && this.$refs.container.children.length == 3) {
+      this.chartWidth = this.$refs.container.children[2].clientWidth
+      this.chartHeight = this.$refs.container.children[2].clientHeight
+    }
   },
   methods: {
     onResize() {
-      this.chartWidth = this.$refs.container.children[2].clientWidth
-      this.chartHeight = this.$refs.container.children[2].clientHeight
-      // console.log(this.chartHeight)
-      // console.log(this.chartWidth)
-      console.log(this.$refs.container.children[2].clientHeight)
-      console.log(this.$refs.container.children[2].clientWidth)
-
+      if (this.$refs.container && this.$refs.container.children && this.$refs.container.children.length == 3) {
+        this.$refs.container.children[2].classList = ['hidden']
+      }
     }
   }
 }
