@@ -35,6 +35,10 @@ export default {
     {
       src: '~/node_modules/tw-elements/dist/js/index.min.js',
       mode: 'client'
+    },
+    {
+      src: '~/plugins/trading-vue.client.js',
+      mode: 'client'
     }
   ],
   /*

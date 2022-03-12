@@ -10,11 +10,12 @@
 
 <script>
 import Sidebar from '~/components/Sidebar'
+import Header from '~/components/Header'
 
 export default {
   components: {
     Sidebar: Sidebar,
-    AihabotHeader: () => import('~/components/Header')
+    AihabotHeader: Header
   }
 }
 </script>
