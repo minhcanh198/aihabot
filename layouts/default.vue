@@ -1,7 +1,7 @@
 <template>
-  <div class='flex flex-row h-screen bg-gray-200 text-gray-800'>
+  <div class='flex flex-row min-h-screen bg-gray-200 text-gray-800'>
     <sidebar></sidebar>
-    <div class='flex flex-col w-full'>
+    <div class='flex flex-col w-full h-screen'>
       <aihabot-header></aihabot-header>
       <nuxt></nuxt>
     </div>
