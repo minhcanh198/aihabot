@@ -1,5 +1,5 @@
 <template>
-  <div class='mx-4'>
+  <div class='mx-4 overflow-x-auto'>
     <table class='w-full rounded-lg'>
       <thead class='bg-white border-b'>
       <tr>
