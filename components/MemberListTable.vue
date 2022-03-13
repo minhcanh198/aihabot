@@ -4,16 +4,25 @@
       <thead class='bg-white border-b'>
       <tr>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          #
+          ID
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          First
+          Email
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Last
+          Wallet
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Handle
+          Sponsor
+        </th>
+        <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+          F
+        </th>
+        <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+          Active Bot
+        </th>
+        <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+          Create Date
         </th>
       </tr>
       </thead>
@@ -29,29 +38,119 @@
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
         </td>
-      </tr>
-      <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>2</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          Jacob
+          @mdo
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          Thornton
+          @mdo
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          @fat
+          @mdo
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>3</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          Larry
+          Mark
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          Wild
+          Otto
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
-          @twitter
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+      </tr>
+      <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Mark
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Otto
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+      </tr>
+      <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Mark
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Otto
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+      </tr>
+      <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Mark
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Otto
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+      </tr>
+      <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Mark
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          Otto
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          @mdo
         </td>
       </tr>
       </tbody>
