@@ -168,33 +168,37 @@
           </svg>
         </div>
         <ul class='mt-12'>
-          <li class='flex w-full justify-between text-gray-300 hover:text-gray-500 cursor-pointer items-center mb-6'>
-            <div class='flex items-center'>
-              <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid' width='18' height='18'
-                   viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
-                   stroke-linejoin='round'>
-                <path stroke='none' d='M0 0h24v24H0z'></path>
-                <rect x='4' y='4' width='6' height='6' rx='1'></rect>
-                <rect x='14' y='4' width='6' height='6' rx='1'></rect>
-                <rect x='4' y='14' width='6' height='6' rx='1'></rect>
-                <rect x='14' y='14' width='6' height='6' rx='1'></rect>
-              </svg>
-              <span class='text-sm ml-2'>Dashboard</span>
-            </div>
-            <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>5</div>
+          <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
+            <NuxtLink to='/' class='flex-grow flex justify-between'>
+              <div class='flex items-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-puzzle' width='18'
+                     height='18'
+                     viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
+                     stroke-linejoin='round'>
+                  <path stroke='none' d='M0 0h24v24H0z'></path>
+                  <path
+                    d='M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1'></path>
+                </svg>
+                <span class='text-sm ml-2'>Dashboard</span>
+              </div>
+              <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>8</div>
+            </NuxtLink>
           </li>
           <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
-            <div class='flex items-center'>
-              <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-puzzle' width='18' height='18'
-                   viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
-                   stroke-linejoin='round'>
-                <path stroke='none' d='M0 0h24v24H0z'></path>
-                <path
-                  d='M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1'></path>
-              </svg>
-              <span class='text-sm ml-2'>Products</span>
-            </div>
-            <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>8</div>
+            <NuxtLink to='/member' class='flex-grow flex justify-between'>
+              <div class='flex items-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-puzzle' width='18'
+                     height='18'
+                     viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
+                     stroke-linejoin='round'>
+                  <path stroke='none' d='M0 0h24v24H0z'></path>
+                  <path
+                    d='M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1'></path>
+                </svg>
+                <span class='text-sm ml-2'>Member</span>
+              </div>
+              <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>8</div>
+            </NuxtLink>
           </li>
           <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
             <div class='flex items-center'>

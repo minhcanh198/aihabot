@@ -1,6 +1,6 @@
 <template>
   <div class='flex justify-between border-b border-gray-400 p-3 bg-indigo-900'>
-    <div class='text-gray-500 hover:text-gray-100'>Menu</div>
+    <div class='text-gray-500 hover:text-gray-100'></div>
     <div class='flex'>
       <div class='px-3 text-gray-500 hover:text-gray-100'>
         Balance: <span class='text-yellow-300'>900,000</span>
