@@ -119,7 +119,7 @@
 
       </div>
     </div>
-    <button type='button' class='p-2 rounded-lg bg-blue-600 text-white w-1/2 focus:outline-none hover:bg-blue-700 mb-3'>
+    <button type='button' class='p-2 rounded-lg bg-blue-600 text-white w-1/2 focus:outline-none hover:bg-blue-700 my-3'>
       Save
     </button>
   </div>
