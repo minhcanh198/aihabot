@@ -1,7 +1,7 @@
 <template>
-  <div class='mx-4 overflow-x-auto'>
+  <div class='mx-6 overflow-x-auto'>
     <table class='w-full rounded-lg'>
-      <thead class='bg-white border-b'>
+      <thead class='bg-gray-400 border-b'>
       <tr>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
           ID
@@ -49,7 +49,7 @@
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>2</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           Mark
         </td>
@@ -70,7 +70,7 @@
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>3</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           Mark
         </td>
@@ -91,7 +91,7 @@
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>4</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           Mark
         </td>
@@ -112,7 +112,7 @@
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>5</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           Mark
         </td>
@@ -133,7 +133,7 @@
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
-        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>1</td>
+        <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>6</td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           Mark
         </td>
