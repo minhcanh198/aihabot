@@ -1,8 +1,8 @@
 <template>
-  <div class='flex flex-col flex-grow bg-blue-900'>
+  <div class='flex flex-col flex-grow bg-blue-900 overflow-y-auto'>
     <div class='px-3 py-2 text-white'>Dashboard</div>
-    <div class='flex flex-wrap flex-grow items-center py-2'>
-      <div class='h-full w-full md:w-2/3'>
+    <div class='flex flex-wrap p-3 flex-grow items-center h-full'>
+      <div class='md:w-2/3 w-full text-center h-full'>
         <div class='text-center h-full flex flex-col relative mx-3' ref='container'>
           <div class='grid grid-cols-3 gap-4'>
             <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>

@@ -1,5 +1,5 @@
 <template>
-  <div class='flex flex-row min-h-screen bg-gray-200 text-gray-800'>
+  <div class='flex flex-row h-screen bg-gray-200 text-gray-800'>
     <sidebar></sidebar>
     <div class='flex flex-col w-full'>
       <aihabot-header></aihabot-header>
