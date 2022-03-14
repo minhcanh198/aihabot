@@ -5,7 +5,7 @@
       <div class='md:w-2/3 w-full text-center h-full'>
         <div class='text-center h-full flex flex-col relative mx-3' ref='container'>
           <div class='grid grid-cols-3 gap-4'>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
@@ -13,7 +13,7 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
@@ -21,7 +21,7 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
@@ -29,7 +29,7 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
@@ -37,7 +37,7 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
@@ -45,7 +45,7 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center'>
+            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
                 Balance
               </div>
