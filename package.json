@@ -27,6 +27,7 @@
   "devDependencies": {
     "@nuxtjs/stylelint-module": "4.0.0",
     "@nuxtjs/tailwindcss": "^3.4.2",
-    "lint-staged": "^10.5.3"
+    "lint-staged": "^10.5.3",
+    "vuex": "^3.6.2"
   }
 }

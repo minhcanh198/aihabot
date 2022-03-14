@@ -28,15 +28,23 @@
     </div>
     <div class='mb-2'>
       <button type='button'
-              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700 mb-2'>
+              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700 mb-2'
+              @click='selectTab(tabs.updateEmail)'>
         UPDATE EMAIL
       </button>
       <button type='button'
-              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700 mb-2'>
+              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700 mb-2'
+              @click='selectTab(tabs.connectBinance)'>
         CONNECT BINANCE API-KEY
       </button>
       <button type='button'
-              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700'>
+              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700 mb-2'
+              @click='selectTab(tabs.connectTelegram)'>
+        CONNECT TELEGRAM
+      </button>
+      <button type='button'
+              class='p-2 rounded-lg bg-blue-600 text-gray-200 w-full focus:outline-none hover:bg-blue-700'
+              @click='selectTab(tabs.authenticator)'>
         TWO-FACTOR AUTHENTICATOR
       </button>
     </div>
@@ -44,8 +52,19 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 export default {
-  name: 'ProfilePanel'
+  name: 'ProfilePanel',
+  computed: {
+    ...mapState('profile', ['tabs'])
+  },
+  methods: {
+    selectTab(tab) {
+      console.log(tab)
+      this.$store.commit('profile/changeCurrentTab', tab)
+    }
+  }
 }
 </script>
 
