@@ -78,8 +78,9 @@
               aria-labelledby='dropdownMenuButton1'
             >
               <li>
-                <a
-                  class='
+                <nuxt-link to='/profile'>
+                  <div
+                    class='
               dropdown-item
               text-sm
               py-2
@@ -92,9 +93,12 @@
               text-gray-700
               hover:bg-gray-100
             '
-                  href='#'
-                >Profile</a
-                >
+                    href='#'
+                  >Profile
+                  </div
+                  >
+                </nuxt-link>
+
               </li>
               <li>
                 <a
