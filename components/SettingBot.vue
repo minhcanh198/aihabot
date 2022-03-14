@@ -1,6 +1,6 @@
 <template>
   <div
-    class='bg-indigo-900 mx-3 rounded-2xl border-4 border-gray-800 flex flex-col items-center justify-between'>
+    class='bg-indigo-900 mx-3 rounded-2xl border-4 border-gray-800 flex flex-col items-center justify-between shadow-xl'>
     <div class='text-lg text-yellow-300'>SETTING BOT</div>
     <div class='flex flex-col w-full'>
       <div class='text-white text-sm mx-3'>
