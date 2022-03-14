@@ -80,5 +80,4 @@ export default {
   router: {
     linkExactActiveClass: 'text-white' // tailwind class with custom color
   }
-
 }

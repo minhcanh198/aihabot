@@ -7,22 +7,25 @@
           ID
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Email
+          Amount
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Wallet
+          Currency
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Sponsor
+          Action
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          F
+          Rate
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Active Bot
+          Comment
         </th>
         <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
-          Create Date
+          Time
+        </th>
+        <th scope='col' class='text-sm font-medium text-gray-900 px-6 py-4 text-left'>
+          Status
         </th>
       </tr>
       </thead>
@@ -47,6 +50,9 @@
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
         </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
+        </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
         <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>2</td>
@@ -67,6 +73,9 @@
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
@@ -89,6 +98,9 @@
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
         </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
+        </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
         <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>4</td>
@@ -109,6 +121,9 @@
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
         </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
@@ -131,6 +146,9 @@
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
         </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
+        </td>
       </tr>
       <tr class='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
         <td class='px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900'>6</td>
@@ -151,6 +169,9 @@
         </td>
         <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
           @mdo
+        </td>
+        <td class='text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap'>
+          OK
         </td>
       </tr>
       </tbody>
