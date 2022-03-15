@@ -5,6 +5,14 @@
 .nuxt-content-highlight {
   @apply relative;
 }
+
 .nuxt-content-highlight .filename {
   @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
+}
+
+body {
+  background-image: url("~assets/images/1366x768-background.png");
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
 }

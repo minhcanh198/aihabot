@@ -1,5 +1,5 @@
 <template>
-  <div class='flex flex-col flex-grow bg-blue-900 overflow-y-auto'>
+  <div class='flex flex-col flex-grow overflow-y-auto'>
     <div class='px-3 py-2 text-gray-200'>Profile</div>
     <div class='flex flex-wrap text-gray-200'>
       <div class='md:w-1/3 w-full'>

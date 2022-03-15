@@ -1,5 +1,5 @@
 <template>
-  <div class='flex flex-col flex-grow bg-blue-900 overflow-y-auto'>
+  <div class='flex flex-col flex-growoverflow-y-auto'>
     <div class='px-3 py-2 text-gray-200'>Wallet</div>
     <div class='grid grid-cols-1 md:grid-cols-3 gap-6 p-3 text-gray-200'>
       <wallet-balance></wallet-balance>
