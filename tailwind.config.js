@@ -28,7 +28,8 @@ module.exports = {
     extend: {
       colors: {
         cyan: '#9cdbff',
-        reda: '#ec242c'
+        reda: '#ec242c',
+        bluea: '#000325'
       },
       spacing: {
         '96': '24rem',
@@ -44,6 +45,9 @@ module.exports = {
       },
       margin: {
         '-fullh': '-100vh'
+      },
+      zIndex: {
+        '-10': '-10'
       }
     },
     inset: {

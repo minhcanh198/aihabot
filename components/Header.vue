@@ -1,5 +1,6 @@
 <template>
-  <div class='flex justify-between p-3'>
+  <div class='flex justify-between p-3 relative'>
+    <div class='h-full w-full absolute right-0 opacity-75 bg-bluea -z-10 top-0'></div>
     <div class='text-gray-500 hover:text-gray-100'></div>
     <div class='flex'>
       <div class='px-3 text-gray-500 hover:text-gray-100'>
