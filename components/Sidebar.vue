@@ -10,7 +10,24 @@
           <div>ID:</div>
           <div class='text-reda'>123123</div>
         </div>
-        <ul class='mt-12'>
+        <div class='flex justify-between text-gray-100 items-center mt-3'>
+          <div>Connect API:</div>
+          <div class='form-check form-switch'>
+            <input
+              class='form-check-input appearance-none w-10 rounded-full float-left h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm'
+              type='checkbox' role='switch' checked>
+          </div>
+        </div>
+        <div class='flex justify-between text-gray-100 items-center mt-3'>
+          <div>Bot Status:</div>
+          <div class='form-check form-switch'>
+            <input
+              class='form-check-input appearance-none w-10 rounded-full float-left h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300 focus:outline-none cursor-pointer shadow-sm'
+              type='checkbox' role='switch'>
+          </div>
+        </div>
+        <div class='h-1 border-gray-200 border-b mt-6'></div>
+        <ul class='mt-6'>
           <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
             <NuxtLink to='/' class='flex-grow flex justify-between'>
               <div class='flex items-center'>
