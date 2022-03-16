@@ -90,7 +90,7 @@
         <div class='w-full flex mt-3 items-center'>
           <div class='w-1/2'>
             <div>Profit target</div>
-            <div class='flex-grow mr-2'>
+            <div class='flex-grow mr-2 my-2'>
               <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
                      value='20%'>
             </div>
@@ -106,7 +106,7 @@
         <div class='w-full flex mt-3 items-center'>
           <div class='w-1/2'>
             <div>Trailing Stop</div>
-            <div class='flex-grow mr-2'>
+            <div class='flex-grow mr-2 my-2'>
               <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
                      value='20%'>
             </div>

@@ -1,5 +1,6 @@
 <template>
-  <div class='m-3 text-gray-200 bg-indigo-900 rounded-2xl h-full shadow-xl'>
+  <div class='m-3 text-gray-200 rounded-2xl h-full shadow-xl relative'>
+    <div class='absolute top-0 h-full rounded-2xl w-full bg-bluea opacity-50 -z-10'></div>
     <div class='p-4'>
       <div class='flex justify-center'>
         <div class='flex flex-col items-center'>

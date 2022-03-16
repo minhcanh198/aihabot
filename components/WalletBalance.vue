@@ -1,6 +1,7 @@
 <template>
   <div class='m-3'>
-    <div class='flex flex-col items-center p-3 rounded-2xl bg-indigo-900 shadow-xl'>
+    <div class='flex flex-col items-center p-3 rounded-2xl shadow-xl relative'>
+      <div class='absolute top-0 h-full rounded-2xl w-full bg-bluea opacity-50 -z-10'></div>
       <div>Balance</div>
       <div class='font-bold text-lg my-2'>19,000$</div>
       <button type='button'
