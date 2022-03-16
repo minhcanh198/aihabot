@@ -1,5 +1,7 @@
 <template>
-  <div class='bg-indigo-900 shadow-xl rounded-xl p-5'>
+  <div class='shadow-xl rounded-xl p-5 relative'>
+    <div class='absolute right-0 top-0 rounded-xl h-full w-full bg-bluea opacity-50 -z-10'></div>
+
     <div class='flex justify-center font-bold'>CONNECT TELEGRAM</div>
 
     <div class='my-4'>

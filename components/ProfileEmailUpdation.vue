@@ -1,5 +1,6 @@
 <template>
-  <div class='bg-indigo-900 shadow-xl rounded-xl p-5'>
+  <div class='shadow-xl rounded-xl p-5 relative'>
+    <div class='absolute top-0 right-0 h-full rounded-2xl w-full bg-bluea opacity-50 -z-10'></div>
     <div class='flex justify-center font-bold'>UPDATE EMAIL</div>
     <div class='my-4'>
       <div class='mb-2'>Email</div>

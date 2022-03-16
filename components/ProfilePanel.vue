@@ -1,5 +1,7 @@
 <template>
-  <div class='bg-indigo-900 shadow-xl rounded-xl p-3'>
+  <div class='shadow-xl rounded-xl p-3 relative'>
+    <div class='absolute top-0 right-0 h-full rounded-2xl w-full bg-bluea opacity-50 -z-10'></div>
+
     <div class='flex justify-center'>
       <img
         src='https://teky.edu.vn/blog/wp-content/uploads/2021/07/thong-tin-ve-cong-nghe-blockchain.jpg'
@@ -8,21 +10,21 @@
       >
     </div>
     <div class='m-3'>
-      <div>ID: <span class='text-orange-400'>34567</span></div>
-      <div>Wallet: <span class='text-orange-400'>ỉuhgsigefrygshgskigdf</span></div>
-      <div>Email: <span class='text-orange-400'>mail@mail.com</span></div>
+      <div>ID: <span class='text-yellowa'>34567</span></div>
+      <div>Wallet: <span class='text-yellowa'>yydjrjdtuksrgfhjfgh</span></div>
+      <div>Email: <span class='text-yellowa'>mail@mail.com</span></div>
     </div>
     <div class='my-4'>
       <button type='button'
-              class='p-2 rounded-lg bg-gray-400 text-blue-500 w-full focus:outline-none hover:bg-gray-300 mb-2'>
+              class='p-2 rounded-lg text-reda border border-reda w-full focus:outline-none hover:bg-gray-700 mb-2'>
         Connect API key Binance
       </button>
       <button type='button'
-              class='p-2 rounded-lg bg-gray-400 text-blue-500 w-full focus:outline-none hover:bg-gray-300 mb-2'>
+              class='p-2 rounded-lg text-greena w-full focus:outline-none hover:bg-gray-700 mb-2 border border-greena '>
         Connect telegram
       </button>
       <button type='button'
-              class='p-2 rounded-lg bg-gray-400 text-blue-500 w-full focus:outline-none hover:bg-gray-300'>
+              class='p-2 rounded-lg text-greena w-full focus:outline-none hover:bg-gray-700 mb-2 border border-greena '>
         Active 2FA
       </button>
     </div>

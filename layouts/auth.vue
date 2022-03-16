@@ -1,12 +1,6 @@
 <template>
-  <div class='flex flex-row min-h-screen relative'>
-    <sidebar></sidebar>
-    <div class='flex flex-col w-full z-0'>
-      <aihabot-header></aihabot-header>
-      <nuxt></nuxt>
-    </div>
-    <ActiveBotModal></ActiveBotModal>
-    <CommissionModal></CommissionModal>
+  <div class='flex min-h-screen relative'>
+
   </div>
 </template>
 
@@ -15,10 +9,7 @@ import Sidebar from '~/components/Sidebar'
 import Header from '~/components/Header'
 
 export default {
-  components: {
-    Sidebar: Sidebar,
-    AihabotHeader: Header
-  }
+
 }
 </script>
 

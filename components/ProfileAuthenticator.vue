@@ -1,11 +1,12 @@
 <template>
-  <div class='bg-indigo-900 shadow-xl rounded-xl p-5'>
-    <div class='flex justify-center font-bold'>TWO-FACTOR AUTHENTICATOR</div>
+  <div class=' shadow-xl rounded-xl p-5 relative'>
+    <div class='absolute right-0 top-0 rounded-xl h-full w-full bg-bluea opacity-50 -z-10'></div>
+    <div class='flex justify-center font-bold py-2 bg-slightbluea w-full'>TWO-FACTOR AUTHENTICATOR</div>
     <div class='flex justify-center my-4'>
       <img
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png'
         alt='qr code'
-        class='object-cover object-center w-32 h-32 rounded-xl border-gray-600 border'>
+        class='object-cover object-center bg-gray-300 w-32 h-32 rounded-xl border'>
 
     </div>
     <div class='my-4'>

@@ -2,7 +2,7 @@
   <div
     class='mx-3 rounded-2xl border-2 border-gray-200 flex flex-col items-center justify-between shadow-xl relative xl:p-5'>
     <div class='absolute top-0 h-full w-full bg-bluea opacity-50 -z-10'></div>
-    <div class='text-lg text-yellow-300 py-4 font-bold'>SETTING BOT</div>
+    <div class='text-lg text-yellowa py-4 font-bold'>SETTING BOT</div>
     <div class='flex flex-col w-full'>
       <div class='text-white text-sm mx-3 my-5'>
         <div>

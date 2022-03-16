@@ -29,7 +29,10 @@ module.exports = {
       colors: {
         cyan: '#9cdbff',
         reda: '#ec242c',
-        bluea: '#000325'
+        bluea: '#000325',
+        greena: '#01af00',
+        yellowa: '#fcff00',
+        sbluea: '#008cff'
       },
       spacing: {
         '96': '24rem',
@@ -48,7 +51,7 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10'
-      },
+      }
     },
     inset: {
       '0': 0,

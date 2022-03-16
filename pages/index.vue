@@ -15,7 +15,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -29,7 +29,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -43,7 +43,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -57,7 +57,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -71,7 +71,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -85,7 +85,7 @@
               <div class='text-white'>
                 Balance
               </div>
-              <div class='text-yellow-500 font-bold'>
+              <div class='text-yellowa font-bold'>
                 100$
               </div>
             </div>
@@ -225,10 +225,13 @@
               </div>
             </div>
             <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700'
-                    type='button'>
+                    type='button' @click='activeBot' data-bs-toggle='modal' data-bs-target='#activeBotModal'>
               Active Bot
             </button>
+
+
             <button class='p-2 rounded-lg bg-blue-600 text-white ml-4 focus:outline-none hover:bg-blue-700'
+                    data-bs-toggle='modal' data-bs-target='#commissionModal'
                     type='button'>
               Commission
             </button>
@@ -275,6 +278,9 @@ export default {
         this.chartWidth = this.$refs.container.children[2].clientWidth
         this.chartHeight = this.chartWidth * 2 / 3
       }
+    },
+    activeBot() {
+      console.log(2111)
     }
   }
 }
