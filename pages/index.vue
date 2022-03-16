@@ -5,7 +5,13 @@
       <div class='md:w-2/3 w-full'>
         <div class='text-center flex flex-col relative mx-3' ref='container'>
           <div class='grid grid-cols-3 gap-4'>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -13,7 +19,13 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -21,7 +33,13 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -29,7 +47,13 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -37,7 +61,13 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -45,7 +75,13 @@
                 100$
               </div>
             </div>
-            <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
+            <div class='p-2 rounded-lg flex flex-col items-center shadow-xl relative'>
+              <div
+                class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
+              <div
+                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+
               <div class='text-white'>
                 Balance
               </div>
@@ -243,3 +279,17 @@ export default {
   }
 }
 </script>
+
+<style>
+.background-circle-boy {
+  background-image: url("~assets/svg/circle.svg");
+  background-repeat: no-repeat;
+  background-position: 5px 40px;
+}
+
+.background-circle-girl {
+  background-image: url("~assets/svg/circle.svg");
+  background-repeat: no-repeat;
+  background-position: 22px 20px;
+}
+</style>
