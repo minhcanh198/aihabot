@@ -1,9 +1,9 @@
 <template>
   <div class='flex flex-col flex-grow overflow-y-auto'>
     <div class='px-3 py-2 text-white'>Dashboard</div>
-    <div class='flex flex-wrap p-3 flex-grow items-center h-full'>
-      <div class='md:w-2/3 w-full text-center h-full'>
-        <div class='text-center h-full flex flex-col relative mx-3' ref='container'>
+    <div class='flex flex-wrap p-3 flex-grow items-start'>
+      <div class='md:w-2/3 w-full'>
+        <div class='text-center flex flex-col relative mx-3' ref='container'>
           <div class='grid grid-cols-3 gap-4'>
             <div class='p-2 rounded-lg bg-blue-700 flex flex-col items-center shadow-xl'>
               <div class='text-white'>
@@ -202,7 +202,7 @@
           </div>
         </div>
       </div>
-      <div class='md:w-1/3 w-full md:mt-0 mt-3 h-full'>
+      <div class='md:w-1/3 w-full md:mt-0 mt-3'>
         <setting-bot></setting-bot>
       </div>
     </div>
@@ -230,13 +230,14 @@ export default {
     window.addEventListener('resize', this.onResize)
     if (this.$refs.container && this.$refs.container.children && this.$refs.container.children.length == 3) {
       this.chartWidth = this.$refs.container.children[2].clientWidth
-      this.chartHeight = this.$refs.container.children[2].clientHeight
+      this.chartHeight = this.chartWidth * 2 / 3
     }
   },
   methods: {
     onResize() {
       if (this.$refs.container && this.$refs.container.children && this.$refs.container.children.length == 3) {
-        this.$refs.container.children[2].classList = ['hidden']
+        this.chartWidth = this.$refs.container.children[2].clientWidth
+        this.chartHeight = this.chartWidth * 2 / 3
       }
     }
   }
