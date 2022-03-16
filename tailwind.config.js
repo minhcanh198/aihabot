@@ -48,7 +48,7 @@ module.exports = {
       },
       zIndex: {
         '-10': '-10'
-      }
+      },
     },
     inset: {
       '0': 0,
