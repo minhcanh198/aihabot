@@ -1,16 +1,12 @@
 <template>
-  <div class='flex min-h-screen relative'>
-
+  <div class='min-h-screen text-gray-100'>
+    <nuxt></nuxt>
   </div>
 </template>
 
 <script>
-import Sidebar from '~/components/Sidebar'
-import Header from '~/components/Header'
 
-export default {
-
-}
+export default {}
 </script>
 
 <style>

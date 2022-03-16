@@ -120,9 +120,10 @@
                 </nuxt-link>
 
               </li>
-              <li>
-                <a
-                  class='
+              <NuxtLink to='/login'>
+                <li>
+                  <a
+                    class='
               dropdown-item
               text-sm
               py-2
@@ -135,10 +136,11 @@
               text-gray-700
               hover:bg-gray-100
             '
-                  href='#'
-                >Logout</a
-                >
-              </li>
+                    href='#'
+                  >Logout</a
+                  >
+                </li>
+              </NuxtLink>
             </ul>
           </div>
         </div>
