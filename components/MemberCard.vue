@@ -9,17 +9,17 @@
       </div>
       <div>Your wallet</div>
       <div class='flex flex-wrap'>
-        <input type='text' class='focus:outline-none rounded-l-lg w-2/3'>
+        <input type='text' class='focus:outline-none rounded-l-lg w-4/5'>
         <button type='button'
-                class='p-2 rounded-r-lg bg-blue-600 text-white focus:outline-none hover:bg-blue-700 text-sm'>
+                class='p-2 rounded-r-lg bg-blue-600 text-white focus:outline-none hover:bg-blue-700 text-sm w-1/5'>
           Copy
         </button>
       </div>
       <div class='mt-3'>Link</div>
       <div class='flex flex-wrap'>
-        <input type='text' class='focus:outline-none rounded-l-lg w-2/3'>
+        <input type='text' class='focus:outline-none rounded-l-lg w-4/5'>
         <button type='button'
-                class='p-2 rounded-r-lg bg-blue-600 text-white focus:outline-none hover:bg-blue-700  text-sm'>
+                class='p-2 rounded-r-lg bg-blue-600 text-white focus:outline-none hover:bg-blue-700  text-sm w-1/5'>
           Copy
         </button>
       </div>
