@@ -1,5 +1,5 @@
 <template>
-  <div class='flex justify-between p-3 relative items-center'>
+  <div class='flex justify-between p-3 sticky top-0 items-center z-20'>
     <div class='h-full w-full absolute right-0 opacity-75 bg-bluea -z-10 top-0'></div>
     <div class='text-gray-500 hover:text-gray-100 cursor-pointer' @click='toggleSidebar'>
       <svg xmlns='http://www.w3.org/2000/svg' version='1.0' width='25' height='25'
