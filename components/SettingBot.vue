@@ -10,12 +10,14 @@
         <textarea rows='4' class='w-full rounded-lg mt-1'></textarea>
         <div>Pairs Group</div>
         <div class='mb-3 w-1/2'>
-          <select class='form-select appearance-none
+          <div class='mr-2'>
+            <select class='form-select appearance-none
       block
       px-3
       w-full
       py-1.5
       text-base
+      rounded-lg
       font-normal
       text-gray-700
       bg-white bg-clip-padding bg-no-repeat
@@ -25,11 +27,12 @@
       ease-in-out
       m-0
       focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none' aria-label='Default select example'>
-            <option selected>Group 1</option>
-            <option value='1'>One</option>
-            <option value='2'>Two</option>
-            <option value='3'>Three</option>
-          </select>
+              <option selected>Group 1</option>
+              <option value='1'>One</option>
+              <option value='2'>Two</option>
+              <option value='3'>Three</option>
+            </select>
+          </div>
         </div>
         <div class='w-full flex mt-2'>
           <div class='w-1/2'>
@@ -40,6 +43,7 @@
       px-3
       w-full
       py-1.5
+      rounded-lg
       text-base
       font-normal
       text-gray-700
@@ -60,7 +64,7 @@
           <div class='w-1/2 flex flex-col'>
             <div class='ml-2'>Amount Investment</div>
             <div class='flex-grow ml-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none'
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
                      value='1,000,000'>
             </div>
           </div>
@@ -69,13 +73,15 @@
           <div class='w-1/2'>
             <div>Expand Orders</div>
             <div class='flex-grow mr-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='John'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='John'>
             </div>
           </div>
           <div class='w-1/2 flex flex-col'>
             <div class='ml-2 whitespace-nowrap overflow-hidden'>First order amount</div>
             <div class='flex-grow ml-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='90,000'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='90,000'>
             </div>
           </div>
         </div>
@@ -84,13 +90,15 @@
           <div class='w-1/2'>
             <div>Profit target</div>
             <div class='flex-grow mr-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='20%'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='20%'>
             </div>
           </div>
           <div class='w-1/2 flex flex-col'>
             <div class='ml-2 whitespace-nowrap overflow-hidden'>Rate Of Next Order</div>
             <div class='flex-grow ml-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='90%'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='90%'>
             </div>
           </div>
         </div>
@@ -98,13 +106,15 @@
           <div class='w-1/2'>
             <div>Trailing Stop</div>
             <div class='flex-grow mr-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='20%'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='20%'>
             </div>
           </div>
           <div class='w-1/2 flex flex-col'>
             <div class='ml-2 whitespace-nowrap overflow-hidden'>Limit</div>
             <div class='flex-grow ml-2'>
-              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none' value='90%'>
+              <input type='text' class='rounded-lg h-full text-gray-900 px-2 w-full focus:outline-none py-1'
+                     value='90%'>
             </div>
           </div>
         </div>
