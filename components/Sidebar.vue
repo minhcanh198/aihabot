@@ -4,11 +4,10 @@
          class='w-64 shadow h-full flex-col justify-between flex md:relative absolute'>
       <div class='px-8 h-full relative'>
         <div class='h-full w-full absolute right-0 md:opacity-75 opacity-100 bg-bluea -z-10'></div>
-        <div class='text-gray-500 hover:text-gray-100 cursor-pointer absolute -right-30 -top-20 md:hidden'
+        <div class='text-gray-500 hover:text-gray-100 cursor-pointer absolute -right-30 top-30 md:hidden'
              @click='toggleSidebar'>
           <svg xmlns='http://www.w3.org/2000/svg' version='1.0' width='25' height='25'
                viewBox='0 0 512.000000 512.000000' preserveAspectRatio='xMidYMid meet'>
-
             <g transform='translate(0.000000,512.000000) scale(0.100000,-0.100000)' stroke='none' fill='#f9fafb'>
               <path
                 d='M366 4465 c-256 -65 -415 -323 -351 -570 24 -89 72 -170 137 -231 96 -88 187 -124 315 -125 96 0 147 12 227 54 245 130 321 444 163 679 -104 155 -313 238 -491 193z' />
@@ -98,19 +97,24 @@
               <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>8</div>
             </NuxtLink>
           </li>
+
           <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
-            <div class='flex items-center'>
-              <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-code' width='20' height='20'
-                   viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
-                   stroke-linejoin='round'>
-                <path stroke='none' d='M0 0h24v24H0z'></path>
-                <polyline points='7 8 3 12 7 16'></polyline>
-                <polyline points='17 8 21 12 17 16'></polyline>
-                <line x1='14' y1='4' x2='10' y2='20'></line>
-              </svg>
-              <span class='text-sm ml-2'>Bot History</span>
-            </div>
+            <NuxtLink to='/bot-history' class='flex-grow flex justify-between'>
+              <div class='flex items-center'>
+                <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-code' width='20' height='20'
+                     viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' fill='none' stroke-linecap='round'
+                     stroke-linejoin='round'>
+                  <path stroke='none' d='M0 0h24v24H0z'></path>
+                  <polyline points='7 8 3 12 7 16'></polyline>
+                  <polyline points='17 8 21 12 17 16'></polyline>
+                  <line x1='14' y1='4' x2='10' y2='20'></line>
+                </svg>
+                <span class='text-sm ml-2'>Bot History</span>
+              </div>
+              <div class='py-1 px-3 bg-gray-700 rounded text-gray-500 flex items-center justify-center text-xs'>8</div>
+            </NuxtLink>
           </li>
+
           <li class='flex w-full justify-between text-gray-600 hover:text-gray-500 cursor-pointer items-center mb-6'>
             <div class='flex items-center'>
               <svg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-puzzle' width='18' height='18'
@@ -164,7 +168,7 @@ export default {
   right: -30px;
 }
 
-.-top-20 {
-  top: 20px;
+.top-30 {
+  top: 30px;
 }
 </style>

@@ -9,8 +9,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -23,8 +23,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -37,8 +37,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -51,8 +51,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -65,8 +65,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -79,8 +79,8 @@
               <div
                 class='w-full h-full -z-10 bg-blue-500 absolute top-0 opacity-50 rounded-lg '></div>
               <div
-                class='w-1/4 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
-              <div class='w-1/3 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
+                class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-girl'></div>
+              <div class='w-1/2 right-0 h-full -z-10 absolute top-0 opacity-50 rounded-lg background-circle-boy'></div>
 
               <div class='text-white'>
                 Balance
@@ -287,15 +287,5 @@ export default {
 </script>
 
 <style>
-.background-circle-boy {
-  background-image: url("~assets/svg/circle.svg");
-  background-repeat: no-repeat;
-  background-position: 5px 40px;
-}
 
-.background-circle-girl {
-  background-image: url("~assets/svg/circle.svg");
-  background-repeat: no-repeat;
-  background-position: 22px 20px;
-}
 </style>

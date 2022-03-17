@@ -1,0 +1,19 @@
+.background-circle-boy {
+  background-image: url("~assets/svg/circle.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -11px right -25px;
+}
+
+.background-circle-girl {
+  background-image: url("~assets/svg/circle.svg");
+  background-repeat: no-repeat;
+  background-position: bottom -29px right -6px;
+}
+
+table {
+  /*max-width: -moz-fit-content;*/
+  /*max-width: fit-content;*/
+  /*margin: 0 auto;*/
+  /*overflow-x: auto;*/
+  /*white-space: nowrap;*/
+}
